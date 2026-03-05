@@ -85,7 +85,7 @@ const ThankYouPageknee: React.FC = () => {
         {/* Contact Information */}
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
           <a
-            href="tel:+919150010387"
+            href="tel:+9195144 17318"
             className="inline-flex items-center gap-2 bg-[#e13e20] text-white px-6 py-3 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg"
           >
             <Phone className="w-5 h-5" />
@@ -103,7 +103,7 @@ const ThankYouPageknee: React.FC = () => {
         {/* Location */}
         <div className="flex items-center gap-2 text-gray-400 mb-2">
           <MapPin className="w-4 h-4" />
-          <span>23/5A Valmiki Street, East Tambaram, Chennai – 600059</span>
+          <span>2ND Floor, 122/124/1, Vijayalakshmipuram, Redhills Road, Ambattur, Chennai</span>
         </div>
 
         {/* Timing */}

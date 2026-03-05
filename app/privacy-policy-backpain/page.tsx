@@ -209,14 +209,14 @@ const PrivacyPolicyknee: React.FC = () => {
                 <div className="bg-[#e13e20] p-2 rounded-full">
                   <Phone className="w-4 h-4 text-white" />
                 </div>
-                <span className="font-semibold text-black">+91 91500 10387</span>
+                <span className="font-semibold text-black">+91 95144 17318</span>
               </div>
               
               <div className="flex items-center gap-3 mb-3">
                 <div className="bg-[#e13e20] p-2 rounded-full">
                   <MapPin className="w-4 h-4 text-white" />
                 </div>
-                <span className="text-gray-700">23/5A Valmiki Street, East Tambaram, Chennai – 600059</span>
+                <span className="text-gray-700">2nd Floor, 122/124/1, Vijayalakshmipuram, Redhills Road, Ambattur, Chennai - 600053</span>
               </div>
               
               <div className="flex items-center gap-3">
