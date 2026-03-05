@@ -1,0 +1,50 @@
+import type React from "react"
+import type { Metadata } from "next"
+import { Geist, Manrope } from "next/font/google"
+import "./globals.css"
+
+const geist = Geist({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-geist",
+})
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-manrope",
+})
+
+export const metadata: Metadata = {
+  title: "Ayush Ortho",
+  description:
+    "At Ayush Ortho, we relieve knee pain without surgery using Ayurveda, Varma Therapy, Orthopaedic Manual Therapy, and Chiropractic Care.",
+  generator: "Nextjs15",
+  icons: {
+    icon: [
+      { url: "/fav.png", sizes: "16x16", type: "image/png" },
+      { url: "/fav.png", sizes: "32x32", type: "image/png" },
+      { url: "/fav.png", sizes: "48x48", type: "image/png" },
+      { url: "/fav.png", sizes: "192x192", type: "image/png" },
+      { url: "/fav.png", sizes: "512x512", type: "image/png" }, 
+    ],
+    apple: [
+      { url: "/fav.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/fav.png",
+  }
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" className={`${geist.variable} ${manrope.variable} antialiased`}>
+      <head>
+      </head>
+      <body>{children}</body>
+    </html>
+  )
+}
