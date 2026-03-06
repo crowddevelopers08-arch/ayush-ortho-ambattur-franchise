@@ -23,7 +23,7 @@ export default function HomePage() {
       <Neckhero />
       <Neckthird />
       <Neckfive />
-            <Necksix />
+      <Necksix />
       <Neckfour />
       <Neckvideo />
       <Neckreviews />
