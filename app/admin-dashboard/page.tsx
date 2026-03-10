@@ -532,8 +532,8 @@ export default function LeadsTable({
                             <td className="p-4 align-middle">
                               <div className="flex flex-col gap-1">
                                 <span className="text-sm font-medium text-gray-900">{lead.treatmentPlan || lead.areaOfPain || "Not specified"}</span>
-                                {lead.city && <span className="text-xs text-gray-600">{lead.city}</span>}
-                                {lead.age && <span className="text-xs text-gray-600">Age: {lead.age}</span>}
+                                {/* {lead.city && <span className="text-xs text-gray-600">{lead.city}</span>}
+                                {lead.age && <span className="text-xs text-gray-600">Age: {lead.age}</span>} */}
                               </div>
                             </td>
                             <td className="p-4 align-middle">
