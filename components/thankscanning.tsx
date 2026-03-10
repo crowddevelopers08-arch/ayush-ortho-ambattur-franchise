@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ThankScanning() {
   return (
-    <div className="min-h-screen flex flex-col bg-white" style={{ fontFamily: "'Outfit', sans-serif" }}>
+    <div className="flex flex-col bg-white" style={{ fontFamily: "'Outfit', sans-serif" }}>
 
       {/* Navbar */}
       <header className="w-full bg-white shadow-sm sticky top-0 z-50">

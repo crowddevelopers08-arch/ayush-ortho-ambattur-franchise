@@ -41,9 +41,9 @@ export async function POST(request: NextRequest) {
       formName
     } = body
 
-    if (!name || !email || !phone) {
+    if (!name || !phone) {
       return NextResponse.json(
-        { error: 'Name, email, and phone are required' },
+        { error: 'Name and phone are required' },
         { status: 400 }
       )
     }

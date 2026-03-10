@@ -175,6 +175,7 @@ export default function LeadsTable({
       'common': { label: "Common", color: "bg-blue-100 text-blue-800 border-blue-200" },
       'neck-shoulder': { label: "Neck & Shoulder", color: "bg-green-100 text-green-800 border-green-200" },
       'knee-pain': { label: "Knee Pain", color: "bg-purple-100 text-purple-800 border-purple-200" },
+      'scannerform': { label: "Scanner", color: "bg-orange-100 text-orange-800 border-orange-200" },
       'default': { label: formName, color: "bg-gray-100 text-gray-800 border-gray-200" }
     }
     
@@ -338,10 +339,11 @@ export default function LeadsTable({
                     <div className="flex items-center gap-2 mb-2">
                       <FileText className="h-4 w-4 text-blue-600" />
                       <span className="font-medium text-sm text-gray-900 capitalize">
-                        {formName === 'back-pain' ? 'Back Pain' : 
-                         formName === 'neck-shoulder' ? 'Neck & Shoulder' : 
-                         formName === 'knee-pain' ? 'Knee Pain' : 
-                         formName === 'common' ? 'Common' : 
+                        {formName === 'back-pain' ? 'Back Pain' :
+                         formName === 'neck-shoulder' ? 'Neck & Shoulder' :
+                         formName === 'knee-pain' ? 'Knee Pain' :
+                         formName === 'common' ? 'Common' :
+                         formName === 'ScannerForm' ? 'Scanner' :
                          formName === 'Unknown' ? 'Unknown Form' : formName}
                       </span>
                     </div>
@@ -417,10 +419,11 @@ export default function LeadsTable({
                 <SelectItem value="all" className="focus:bg-gray-100">All Forms</SelectItem>
                 {uniqueFormNames.map(formName => (
                   <SelectItem key={formName} value={formName} className="focus:bg-gray-100">
-                    {formName === 'back-pain' ? 'Back Pain' : 
-                     formName === 'neck-shoulder' ? 'Neck & Shoulder' : 
-                     formName === 'knee-pain' ? 'Knee Pain' : 
-                     formName === 'common' ? 'Common' : formName}
+                    {formName === 'back-pain' ? 'Back Pain' :
+                     formName === 'neck-shoulder' ? 'Neck & Shoulder' :
+                     formName === 'knee-pain' ? 'Knee Pain' :
+                     formName === 'common' ? 'Common' :
+                     formName === 'ScannerForm' ? 'Scanner' : formName}
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -675,10 +678,11 @@ export default function LeadsTable({
               Showing {filteredLeads.length} of {leads.length} leads
               {searchTerm && ` • Filtered by: "${searchTerm}"`}
               {formFilter !== 'all' && ` • Form: ${
-                formFilter === 'back-pain' ? 'Back Pain' : 
-                formFilter === 'neck-shoulder' ? 'Neck & Shoulder' : 
-                formFilter === 'knee-pain' ? 'Knee Pain' : 
-                formFilter === 'common' ? 'Common' : formFilter
+                formFilter === 'back-pain' ? 'Back Pain' :
+                formFilter === 'neck-shoulder' ? 'Neck & Shoulder' :
+                formFilter === 'knee-pain' ? 'Knee Pain' :
+                formFilter === 'common' ? 'Common' :
+                formFilter === 'ScannerForm' ? 'Scanner' : formFilter
               }`}
             </div>
             <div className="flex gap-4">

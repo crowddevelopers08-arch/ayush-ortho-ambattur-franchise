@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(\"d:/Grow medico:*)"
+      "Bash(\"d:/Grow medico:*)",
+      "Bash(npx prisma:*)"
     ]
   }
 }
