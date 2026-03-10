@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface FormData {
   name: string;
@@ -34,6 +35,7 @@ function validate(data: FormData): FormErrors {
 }
 
 const ScannerForm: React.FC = () => {
+  const router = useRouter();
   const [form, setForm] = useState<FormData>({ name: "", phone: "", pain: "" });
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -69,8 +71,7 @@ const ScannerForm: React.FC = () => {
         }),
       });
       if (!res.ok) throw new Error("Submission failed");
-      setStatus("success");
-      setForm({ name: "", phone: "", pain: "" });
+      router.push("/thankyou-for-scanning");
     } catch {
       setStatus("error");
     }

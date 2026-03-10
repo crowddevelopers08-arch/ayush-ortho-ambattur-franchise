@@ -3,7 +3,7 @@ import ScannerForm from "@/components/scannercp";
 
 export default function ScannerPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-white" style={{ fontFamily: "'Outfit', sans-serif" }}>
+    <div className="flex flex-col bg-white" style={{ fontFamily: "'Outfit', sans-serif" }}>
       {/* Navbar */}
       <header className="w-full bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
