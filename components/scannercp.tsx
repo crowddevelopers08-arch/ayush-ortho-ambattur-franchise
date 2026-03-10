@@ -185,7 +185,7 @@ const ScannerForm: React.FC = () => {
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-800 leading-tight">
               Relief from{" "}
-              <span className="text-orange-500">Knee, Back</span>
+              <span className="text-orange-500">Knee, Back, Neck</span>
               {" "}&amp;{" "}
               <span className="text-orange-500">Shoulder Pain</span>
               {" "}Starts Here
