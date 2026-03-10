@@ -1,5 +1,5 @@
 import ThankScanning from "@/components/thankscanning";
 
-export default function ThankYouPage() {
+export default function ThankYouForScanningPage() {
   return <ThankScanning />;
 }
