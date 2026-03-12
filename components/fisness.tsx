@@ -42,42 +42,42 @@ const KneePainConditionsGrid: React.FC = () => {
       title: "General Knee Pain",
       description: "Common discomfort and pain in the knee area without specific injury.",
       therapies: ["Varma + Kettal", "Janu Vasti", "Kashaya Dhara"],
-      image: "kneww.jpeg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/kneww.jpeg"
     },
     {
       id: 2,
       title: "Ligament Tears & Strains",
       description: "ACL, MCL injuries from twisting or sports activities. Happen when the strong bands of tissue connecting bones in a joint are stretched or torn.",
       therapies: ["Varma + Kettal", "Navara Kizhi"],
-      image: "liii.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/liii.jpg"
     },
     {
       id: 3,
       title: "Osteoarthritis",
       description: "Degenerative joint disease causing breakdown of knee cartilage.",
       therapies: ["Varma + Kettal", "Janu Vasti", "Kashaya Dhara"],
-      image: "3.jpeg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/3.jpeg"
     },
     {
       id: 4,
       title: "Rheumatoid Arthritis",
       description: "Autoimmune disorder causing joint inflammation and damage.",
       therapies: ["Detox", "Dhanyamla Dhara", "Matra Vasti", "Kashaya Vasti", "Podi Kizhi", "Shirodhara"],
-      image: "WhatsApp.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/WhatsApp.jpg"
     },
     {
       id: 5,
       title: "Gout",
       description: "Form of arthritis characterized by severe pain, redness and tenderness.",
       therapies: ["Detox", "Dhanyamla Dhara", "Matra Vasti", "Kashaya Vasti", "Podi Kizhi", "Shirodhara"],
-      image: "gost.jpeg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/gost.jpeg"
     },
     {
       id: 6,
       title: "Meniscus Tears",
       description: "Tear in the cartilage that acts as a shock absorber between thigh and shin bones.",
       therapies: ["Varma + Kettal", "Navara Kizhi"],
-      image: "meniscust.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/meniscust.jpg"
     }
   ];
 

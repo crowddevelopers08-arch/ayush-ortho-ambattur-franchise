@@ -293,32 +293,32 @@ const Neckfour: React.FC = () => {
           {[
             {
               title: "Tailored 7, 14 & 21-Day Recovery Plans",
-              image: "/main1.jpg",
+              image: "https://ik.imagekit.io/aegfxmf0u/public/main1.jpg",
               description: "We match your condition with a focused treatment duration. Quick and Effective."
             },
             {
               title: "Multi-Therapy Integration",
-              image: "/main2.jpg",
+              image: "https://ik.imagekit.io/aegfxmf0u/public/main2.jpg",
               description: "We combine Ayurveda, Varma, Posture Alignment & Ortho methods for real, root-level healing."
             },
             {
               title: "Supervised by Ortho Experts",
-              image: "/main3.jpg",
+              image: "https://ik.imagekit.io/aegfxmf0u/public/main3.jpg",
               description: "All sessions are guided and reviewed by certified orthopedic & varma therapy specialists."
             },
             {
               title: "Fits Your Work Schedule",
-              image: "/main4.jpg",
+              image: "https://ik.imagekit.io/aegfxmf0u/public/main4.jpg",
               description: "Sessions are short and flexible. No hospital stays, No downtime."
             },
             {
               title: "Defense Family Care",
-              image: "/main5.jpg",
+              image: "https://ik.imagekit.io/aegfxmf0u/public/main5.jpg",
               description: "15% OFF for armed forces personnel & their families."
             },
             {
               title: "Virtual Consult + Home Medicine (Launching Soon)",
-              image: "/main6.jpg",
+              image: "https://ik.imagekit.io/aegfxmf0u/public/main6.jpg",
               description: "Ideal for outstation patients — consult online, receive treatment at home."
             }
           ].map((card, index) => (

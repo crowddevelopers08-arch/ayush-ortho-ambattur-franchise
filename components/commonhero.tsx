@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
     <>
       <section
         className="relative w-full bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/mainbabb.jpg')" }}
+        style={{ backgroundImage: "url('https://ik.imagekit.io/aegfxmf0u/public/mainbabb.jpg')" }}
       >
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-white/30"></div>

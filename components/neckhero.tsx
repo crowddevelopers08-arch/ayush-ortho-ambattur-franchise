@@ -16,9 +16,9 @@ export function Neckhero() {
   const mobileCarouselRef = useRef(null)
 
   const images = [
-    "mainshlo.jpg",
-    "sholbann.jpg",
-    "thatha.jpg",
+    "https://ik.imagekit.io/aegfxmf0u/public/mainshlo.jpg",
+    "https://ik.imagekit.io/aegfxmf0u/public/sholbann.jpg",
+    "https://ik.imagekit.io/aegfxmf0u/public/thatha.jpg",
   ];
 
   useEffect(() => {

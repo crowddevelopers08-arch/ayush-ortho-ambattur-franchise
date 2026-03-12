@@ -112,7 +112,7 @@ const Commonfour: React.FC = () => {
             </h3>
             <div className="w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[240px] mb-3 sm:mb-4">
               <Image
-                src="/main1.jpg"
+                src="https://ik.imagekit.io/aegfxmf0u/public/main1.jpg"
                 alt="Recovery Plans"
                 width={240}
                 height={150}
@@ -132,7 +132,7 @@ const Commonfour: React.FC = () => {
             </h3>
             <div className="w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[240px] mb-3 sm:mb-4">
               <Image
-                src="/main2.jpg"
+                src="https://ik.imagekit.io/aegfxmf0u/public/main2.jpg"
                 alt="Multi Therapy"
                 width={240}
                 height={150}
@@ -152,7 +152,7 @@ const Commonfour: React.FC = () => {
             </h3>
             <div className="w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[240px] mb-3 sm:mb-4">
               <Image
-                src="/main3.jpg"
+                src="https://ik.imagekit.io/aegfxmf0u/public/main3.jpg"
                 alt="Ortho Experts"
                 width={240}
                 height={150}
@@ -172,7 +172,7 @@ const Commonfour: React.FC = () => {
             </h3>
             <div className="w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[240px] mb-3 sm:mb-4">
               <Image
-                src="/main4.jpg"
+                src="https://ik.imagekit.io/aegfxmf0u/public/main4.jpg"
                 alt="Work Schedule"
                 width={240}
                 height={150}
@@ -192,7 +192,7 @@ const Commonfour: React.FC = () => {
             </h3>
             <div className="w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[240px] mb-3 sm:mb-4">
               <Image
-                src="/main5.jpg"
+                src="https://ik.imagekit.io/aegfxmf0u/public/main5.jpg"
                 alt="Defense Family"
                 width={240}
                 height={150}
@@ -212,7 +212,7 @@ const Commonfour: React.FC = () => {
             </h3>
             <div className="w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[240px] mb-3 sm:mb-4">
               <Image
-                src="/main6.jpg"
+                src="https://ik.imagekit.io/aegfxmf0u/public/main6.jpg"
                 alt="Virtual Consult"
                 width={240}
                 height={150}

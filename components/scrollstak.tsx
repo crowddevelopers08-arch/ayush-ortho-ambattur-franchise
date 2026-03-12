@@ -98,7 +98,7 @@ const KneePainReliefCards = () => {
               : 'opacity-0 scale-90'
           }`} style={{ transitionDelay: isVisible ? '0.4s' : '0s' }}>
             <Image
-              src="/repll.webp" // Make sure this path is correct
+              src="https://ik.imagekit.io/aegfxmf0u/public/repll.webp" // Make sure this path is correct
               alt="Therapy Session at Ayush Ortho"
               fill
               className="object-cover"
@@ -120,7 +120,7 @@ const KneePainReliefCards = () => {
               : 'opacity-0 scale-90'
           }`} style={{ transitionDelay: isVisible ? '0.6s' : '0s' }}>
             <Image
-              src="/lokii-min.jpg" // Make sure this path is correct
+              src="https://ik.imagekit.io/aegfxmf0u/public/knee_pain_image.png" // Make sure this path is correct
               alt="Consultation at Ayush Ortho"
               fill
               className="object-cover"

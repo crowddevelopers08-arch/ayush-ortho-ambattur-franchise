@@ -30,31 +30,31 @@ const StackedScrollCards: React.FC = () => {
       id: 1,
       title: "Knee Pain & Arthritis",
       content: "✔️ Age-related wear & tear\n✔️ Sports injury, early-stage arthritis\n✔️ Bone-on-bone issues (non-surgical support)",
-      imageUrl: "scroll1.jpg"
+      imageUrl: "https://ik.imagekit.io/aegfxmf0u/public/scroll1.jpg"
     },
     {
       id: 2,
       title: "Back Pain & Spine Issues",
       content: "✔️ Slip disc, sciatica, lumbar compression\n✔️ Post-pregnancy back pain\n✔️ Poor posture from sedentary work",
-      imageUrl: "scroll2.jpg"
+      imageUrl: "https://ik.imagekit.io/aegfxmf0u/public/scroll2.jpg"
     },
     {
       id: 3,
       title: "Shoulder, Neck & Frozen Shoulder",
       content: "✔️ Diabetic frozen shoulder\n✔️ Stress-related stiffness\n✔️ Cervical spondylosis",
-      imageUrl: "scroll3.jpg"
+      imageUrl: "https://ik.imagekit.io/aegfxmf0u/public/scroll3.jpg"
     },
     {
       id: 4,
       title: "Hip, Leg & Foot Pain",
       content: "✔️ Hip joint strain, postural misalignment\n✔️ Heel spur (Calcaneal spur)\n✔️ Varma-based foot alignment therapy",
-      imageUrl: "scroll4.jpg"
+      imageUrl: "https://ik.imagekit.io/aegfxmf0u/public/scroll4.jpg"
     },
     {
       id: 5,
       title: "Posture Correction & Spine Realignment",
       content: "✔️ Ideal for professionals with long sitting hours\n✔️ Combines Chiropractic, Ayurveda & Varma",
-      imageUrl: "scroll5.jpg"
+      imageUrl: "https://ik.imagekit.io/aegfxmf0u/public/scroll5.jpg"
     }
   ];
 

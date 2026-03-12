@@ -92,7 +92,7 @@ export default function Commonheader() {
         <div className="flex-shrink-0">
           <img 
             className="w-auto h-12 sm:h-14 md:h-16 xl:h-18 object-contain" 
-            src="ayushhhhh.png" 
+            src="https://ik.imagekit.io/aegfxmf0u/public/ayushhhhh.png" 
             alt="Ayush Ortho Logo" 
           />
         </div>

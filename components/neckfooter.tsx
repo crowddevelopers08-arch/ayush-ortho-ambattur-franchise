@@ -20,7 +20,7 @@ export function Neckfooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-[426px]:gap-4 gap-8">
           {/* Clinic Info */}
           <div className="space-y-6">
-             <img  className="w-[170px] h-[60px] max-[768px]:w-[150px] max-[768px]:h-[50px] max-[480px]:w-[120px] max-[480px]:h-[40px]" src="ayushhhhh.png" alt="logo" />
+             <img  className="w-[170px] h-[60px] max-[768px]:w-[150px] max-[768px]:h-[50px] max-[480px]:w-[120px] max-[480px]:h-[40px]" src="https://ik.imagekit.io/aegfxmf0u/public/ayushhhhh.png" alt="logo" />
             <p className="text-gray-300 max-[426px]:text-[16px] leading-relaxed">
       Whether it’s frozen shoulder, cervical spondylosis, or stiffness from long desk work, pain in the neck and shoulders can affect your sleep, posture, and mobility.
 

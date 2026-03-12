@@ -175,7 +175,7 @@ export function Backhero() {
     {/* Main circular image */}
     <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
       <img 
-        src="backban.webp" 
+        src="https://ik.imagekit.io/aegfxmf0u/public/backban.webp" 
         alt="Back pain treatment" 
         className="w-full h-full object-cover"
       />
@@ -262,7 +262,7 @@ export function Backhero() {
               {/* Main circular image */}
               <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                 <img 
-                  src="backban.webp" 
+                  src="https://ik.imagekit.io/aegfxmf0u/public/backban.webp" 
                   alt="Back pain treatment" 
                   className="w-full h-full object-cover"
                 />

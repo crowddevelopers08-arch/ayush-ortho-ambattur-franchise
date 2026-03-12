@@ -4,7 +4,7 @@ import React from "react";
 const Commonfive: React.FC = () => {
   const cards = [
     {
-      img: "/sub1.jpg", // replace with your image path
+      img: "https://ik.imagekit.io/aegfxmf0u/public/sub1.jpg", // replace with your image path
       title: "Chronic Pain Sufferers (Age 30–55)",
       text: "Struggling for months/years with pain that affects your lifestyle? This is for you.",
       plan: "14 or 21 Days",
@@ -12,7 +12,7 @@ const Commonfive: React.FC = () => {
         "Still living with pain? Get back to life with our expert-guided recovery.",
     },
     {
-      img: "/sub2.jpg",
+      img: "https://ik.imagekit.io/aegfxmf0u/public/sub2.jpg",
       title: "Surgery-Avoidant Patients",
       text: "Told you need surgery? Try our non-invasive therapies before deciding.",
       plan: "14 or 21 Days",
@@ -20,7 +20,7 @@ const Commonfive: React.FC = () => {
         "Avoid surgery. Heal naturally. Try our proven non-surgical recovery plans.",
     },
     {
-      img: "/sub3.jpg",
+      img: "https://ik.imagekit.io/aegfxmf0u/public/sub3.jpg",
       title: "Sedentary Professionals (Age 30–45)",
       text: "Working long hours from a desk? Pain creeping into your back, neck, or knees?",
       plan: "7 or 14 Days",

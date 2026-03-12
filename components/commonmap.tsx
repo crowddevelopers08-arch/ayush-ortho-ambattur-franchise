@@ -149,7 +149,7 @@ const Commonmap: React.FC = () => {
         {/* Logo - Center aligned */}
         <div className="flex flex-col items-center justify-center mb-4">
           <img
-            src="/ayushhhhh.png"
+            src="https://ik.imagekit.io/aegfxmf0u/public/ayushhhhh.png"
             alt="Ayush Ortho Logo"
             className="h-16 sm:h-20 md:h-24 object-contain"
           />

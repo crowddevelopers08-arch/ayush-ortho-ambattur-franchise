@@ -10,7 +10,7 @@ export default function ScannerPage() {
           {/* Logo */}
           <a href="/" className="flex items-center shrink-0">
             <Image
-              src="/Logoayushnew.png"
+              src="https://ik.imagekit.io/aegfxmf0u/public/Logoayushnew.png?updatedAt=1773306128111"
               alt="Ayush Ortho Logo"
               width={180}
               height={64}

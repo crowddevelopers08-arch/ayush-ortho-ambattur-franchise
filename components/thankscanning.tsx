@@ -9,7 +9,7 @@ export default function ThankScanning() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
           <a href="/" className="flex items-center shrink-0">
             <Image
-              src="/Logoayushnew.png"
+              src="https://ik.imagekit.io/aegfxmf0u/public/Logoayushnew.png?updatedAt=1773306128111"
               alt="Ayush Ortho Logo"
               width={180}
               height={64}

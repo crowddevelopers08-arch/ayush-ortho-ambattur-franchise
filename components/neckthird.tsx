@@ -43,49 +43,49 @@ const Neckthird: React.FC = () => {
       title: "Shoulder Pain & Stiffness",
       description: "Age or posture related discomfort affecting mobility and daily activities.",
       therapies: ["Varma Massage / Abhyangam with Nadi Swedanam – Relieves stiffness & improves flexibility"],
-      image: "neckfirst.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/neckfirst.jpg"
     },
     {
       id: 2,
       title: "Frozen Shoulder",
       description: "Restricted mobility causing significant movement limitations.",
       therapies: ["Varma Massage / Abhyangam with Nadi Swedanam – Restores shoulder movement naturally"],
-      image: "shoul.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/shoul.jpg"
     },
     {
       id: 3,
       title: "Cervical Spondylosis",
       description: "Neck/spine wear & tear leading to chronic pain and stiffness.",
       therapies: ["Orthopaedic Manual Therapy (OMT) + Greeva Vasti – Corrects posture & eases cervical strain"],
-      image: "cervical.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/cervical.jpg"
     },
     {
       id: 4,
       title: "Tendonitis",
       description: "Inflammation-related shoulder pain affecting joint function.",
       therapies: ["Varma + Kettal Therapy – Reduces inflammation & promotes healing"],
-      image: "rota.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/rota.jpg"
     },
     {
       id: 5,
       title: "Shoulder Ligament Tears & Strains",
       description: "Overhead activities or impact injuries stretching or tearing joint tissues.",
       therapies: ["Varma Massage + Navara Kizhi – Strengthens muscles & aids recovery"],
-      image: "ligament-injuries.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/ligament-injuries.jpg"
     },
     {
       id: 6,
       title: "IT Band Syndrome",
       description: "Shoulder-linked strain causing pressure and mobility issues.",
       therapies: ["Varma Massage – Relieves pressure & restores mobility"],
-      image: "necck5.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/necck5.jpg"
     },
     {
       id: 7,
       title: "Carpal Tunnel Syndrome",
       description: "Neck-shoulder strain linked nerve compression discomfort.",
       therapies: ["Varma + Kettal / Nasyam – Relieves nerve compression & discomfort"],
-      image: "donol.jpeg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/donol.jpeg"
     }
   ];
 

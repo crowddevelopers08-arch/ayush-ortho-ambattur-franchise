@@ -194,7 +194,7 @@ const Solution = () => {
                     {!imageError ? (
                       <>
                         <Image
-                          src="/whii.jpg" // Try alternative paths if this doesn't work
+                          src="https://ik.imagekit.io/aegfxmf0u/public/whii.jpg?updatedAt=1773306128438" // Try alternative paths if this doesn't work
                           alt="Back Pain Treatment Illustration"
                           fill
                           className={`object-cover transition-opacity duration-500 ${

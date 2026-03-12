@@ -39,7 +39,7 @@ const AyushOrtho = () => {
                                 <div className="relative w-full max-w-md">
                                     <div className="absolute -inset-3 bg-orange-500 rounded-2xl opacity-30 blur"></div>
                                     <img 
-                                        src="knneeeban.jpg" 
+                                        src="https://ik.imagekit.io/aegfxmf0u/public/knneeeban.jpg" 
                                         alt="Orthopedic treatment" 
                                         className="relative rounded-2xl shadow-2xl w-full h-64 object-cover"
                                     />
@@ -127,7 +127,7 @@ const AyushOrtho = () => {
                             <div className="relative w-full">
                                 <div className="absolute -inset-4 bg-orange-500 rounded-2xl opacity-30 blur"></div>
                                 <img
-                                    src="knneeeban.jpg"
+                                    src="https://ik.imagekit.io/aegfxmf0u/public/knneeeban.jpg"
                                     alt="Orthopedic treatment"
                                     className="relative rounded-2xl shadow-2xl w-full h-[28rem] object-cover"
                                 />

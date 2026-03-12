@@ -42,49 +42,49 @@ const Backthird: React.FC = () => {
       title: "Chronic Back Pain",
       description: "Long-lasting discomfort from daily strain and poor posture affecting quality of life.",
       therapies: [],
-      image: "Chronic-Back-Pain.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/Chronic-Back-Pain.jpg"
     },
     {
       id: 2,
       title: "Disc Bulge / Disc Prolapse",
       description: "Pressure on spinal nerves causing severe pain and limited mobility.",
       therapies: [],
-      image: "secondd.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/secondd.jpg"
     },
     {
       id: 3,
       title: "Sciatica",
       description: "Shooting pain from lower back down the legs due to nerve compression.",
       therapies: [],
-      image: "cannn.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/cannn.jpg"
     },
     {
       id: 4,
       title: "Lumbar Spondylosis",
       description: "Age-related spinal wear and stiffness causing chronic discomfort.",
       therapies: [],
-      image: "Lumbar-Spondylosis.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/Lumbar-Spondylosis.jpg"
     },
     {
       id: 5,
       title: "Anterolisthesis / Retrolisthesis",
       description: "Misaligned vertebrae causing instability and nerve compression.",
       therapies: [],
-      image: "spanlosis.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/spanlosis.jpg"
     },
     {
       id: 6,
       title: "Sacroiliitis",
       description: "Inflammation at the hip-spine joint leading to sharp, localized pain.",
       therapies: [],
-      image: "Sacroilitis.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/Sacroilitis.jpg"
     },
     {
       id: 7,
       title: "Piriformis Syndrome",
       description: "Muscle pressure on the sciatic nerve causing radiating leg pain.",
       therapies: [],
-      image: "remedial.jpg"
+      image: "https://ik.imagekit.io/aegfxmf0u/public/remedial.jpg"
     }
   ];
 
