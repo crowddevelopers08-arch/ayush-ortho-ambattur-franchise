@@ -22,16 +22,16 @@ export const metadata: Metadata = {
   generator: "Nextjs15",
   icons: {
     icon: [
-      { url: "/fav.png", sizes: "16x16", type: "image/png" },
-      { url: "/fav.png", sizes: "32x32", type: "image/png" },
-      { url: "/fav.png", sizes: "48x48", type: "image/png" },
-      { url: "/fav.png", sizes: "192x192", type: "image/png" },
-      { url: "/fav.png", sizes: "512x512", type: "image/png" }, 
+      { url: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826", sizes: "16x16", type: "image/png" },
+      { url: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826", sizes: "32x32", type: "image/png" },
+      { url: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826", sizes: "48x48", type: "image/png" },
+      { url: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826", sizes: "192x192", type: "image/png" },
+      { url: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826", sizes: "512x512", type: "image/png" }, 
     ],
     apple: [
-      { url: "/fav.png", sizes: "180x180", type: "image/png" },
+      { url: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826", sizes: "180x180", type: "image/png" },
     ],
-    shortcut: "/fav.png",
+    shortcut: "https://ik.imagekit.io/aegfxmf0u/public/fav.png?updatedAt=1773306127826",
   }
 }
 
