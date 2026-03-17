@@ -17,12 +17,24 @@ export default function HomePage() {
     <>
     <main className="min-h-screen">
       <Commonheader />
+      <section id="hero">
       <CommonheroSection />
+      </section>
+      <section id="trusted-pain-relief">
       <Commonfour />
+      </section>
+      <section id="treatments">
       <StackedScrollCards />
+      </section>
+      <section id="who-is-this-for">
       <Commonfive />
+      </section>
+      <section id="reviews">
       <Commontestimonials /> 
+      </section>
+      <section id="testimonials">
       <Commonvideo /> 
+      </section>
       <Commonchatbot />
       <Commonmap />
     </main>
