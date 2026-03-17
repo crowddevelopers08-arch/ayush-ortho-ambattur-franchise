@@ -86,7 +86,7 @@ const ThankYouPageknee: React.FC = () => {
             Call Now
           </a>
           <Link
-            href="/knee-treatments"
+            href="/treatments/Kneepain"
             className="inline-flex items-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg"
           >
             <Home className="w-5 h-5" />
