@@ -174,10 +174,15 @@ export function Backhero() {
   <div className="floating-element relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[500px] xl:h-[500px] mx-auto">
     {/* Main circular image */}
     <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
-      <img 
-        src="https://ik.imagekit.io/aegfxmf0u/public/backban.webp" 
-        alt="Back pain treatment" 
+      <video
+        src="/back%20pain.mov"
+        aria-label="Back pain treatment"
         className="w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="metadata"
       />
     </div>
     
@@ -261,10 +266,15 @@ export function Backhero() {
             <div className="floating-element relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[500px] xl:h-[500px] mx-auto">
               {/* Main circular image */}
               <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
-                <img 
-                  src="https://ik.imagekit.io/aegfxmf0u/public/backban.webp" 
-                  alt="Back pain treatment" 
+                <video
+                  src="/back%20pain.mov"
+                  aria-label="Back pain treatment"
                   className="w-full h-full object-cover"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="metadata"
                 />
               </div>
               

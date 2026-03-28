@@ -9,6 +9,16 @@ const AyushOrtho = () => {
         <>
           <style jsx global>{`
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+
+      .floating-element {
+        animation: float 6s ease-in-out infinite;
+      }
       `}</style>
         <div className="relative bg-gradient-to-b from-gray-900 pt-[75px] to-black overflow-hidden" style={{fontFamily: "'Outfit', sans-serif" }}>
             {/* Background Pattern */}
@@ -34,15 +44,42 @@ const AyushOrtho = () => {
                                 </p>
                             </div>
                             
-                            {/* Mobile Image - Shown after the paragraph on mobile */}
-                            <div className="lg:hidden w-full flex justify-center mb-6">
-                                <div className="relative w-full max-w-md">
-                                    <div className="absolute -inset-3 bg-orange-500 rounded-2xl opacity-30 blur"></div>
-                                    <img 
-                                        src="https://ik.imagekit.io/aegfxmf0u/public/knneeeban.jpg" 
-                                        alt="Orthopedic treatment" 
-                                        className="relative rounded-2xl shadow-2xl w-full h-64 object-cover"
-                                    />
+                            {/* Mobile Video Section */}
+                            <div className="relative mb-6 lg:hidden">
+                                <div className="floating-element relative w-64 h-64 sm:w-72 sm:h-72 mx-auto">
+                                    <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
+                                        <video
+                                            src="/knee%20pain.mov"
+                                            aria-label="Knee pain treatment"
+                                            className="w-full h-full object-cover"
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            preload="metadata"
+                                        />
+                                    </div>
+
+                                    <div className="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 bg-[#e13e20] rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center shadow-xl floating-element" style={{ animationDelay: '1s' }}>
+                                        <div className="text-white text-center">
+                                            <span className="block text-xs sm:text-sm font-bold">5000+</span>
+                                            <span className="block text-[10px] sm:text-xs">Treated</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="absolute -bottom-4 -left-2 sm:-bottom-5 sm:-left-3 bg-white rounded-full w-18 h-18 sm:w-22 sm:h-22 flex items-center justify-center shadow-xl floating-element" style={{ animationDelay: '2s' }}>
+                                        <div className="text-[#e13e20] text-center">
+                                            <span className="block text-xs sm:text-sm font-bold">21</span>
+                                            <span className="block text-[10px] sm:text-xs">Day Plan</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="absolute bottom-12 -right-6 sm:bottom-16 sm:-right-8 bg-gray-800 rounded-full w-14 h-14 sm:w-18 sm:h-18 flex items-center justify-center shadow-xl border-2 border-[#e13e20] floating-element" style={{ animationDelay: '3s' }}>
+                                        <div className="text-white text-center">
+                                            <span className="block text-xs sm:text-sm font-bold">0%</span>
+                                            <span className="block text-[10px] sm:text-xs">Surgery</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             
@@ -122,15 +159,42 @@ const AyushOrtho = () => {
                             </p>
                         </div>
 
-                        {/* Image Section - Hidden on mobile, shown on desktop */}
+                        {/* Desktop Video Section */}
                         <div className="hidden lg:block lg:w-1/2 w-full flex justify-center lg:pr-0">
-                            <div className="relative w-full">
-                                <div className="absolute -inset-4 bg-orange-500 rounded-2xl opacity-30 blur"></div>
-                                <img
-                                    src="https://ik.imagekit.io/aegfxmf0u/public/knneeeban.jpg"
-                                    alt="Orthopedic treatment"
-                                    className="relative rounded-2xl shadow-2xl w-full h-[28rem] object-cover"
-                                />
+                            <div className="floating-element relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[500px] xl:h-[500px] mx-auto">
+                                <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
+                                    <video
+                                        src="/knee%20pain.mov"
+                                        aria-label="Knee pain treatment"
+                                        className="w-full h-full object-cover"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        preload="metadata"
+                                    />
+                                </div>
+
+                                <div className="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 md:-top-2 md:-right-2 lg:top-4 lg:right-2 bg-[#e13e20] rounded-full w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 flex items-center justify-center shadow-xl floating-element" style={{ animationDelay: '1s' }}>
+                                    <div className="text-white text-center">
+                                        <span className="block text-xs sm:text-sm md:text-base lg:text-lg font-bold">5000+</span>
+                                        <span className="block text-[10px] sm:text-xs">Treated</span>
+                                    </div>
+                                </div>
+
+                                <div className="absolute -bottom-4 -left-2 sm:-bottom-5 sm:-left-3 md:-bottom-4 md:-left-2 lg:-bottom-2 lg:left-2 bg-white rounded-full w-18 h-18 sm:w-20 sm:h-20 md:w-22 md:h-22 lg:w-28 lg:h-28 xl:w-32 xl:h-32 flex items-center justify-center shadow-xl floating-element" style={{ animationDelay: '2s' }}>
+                                    <div className="text-[#e13e20] text-center">
+                                        <span className="block text-xs sm:text-sm md:text-base lg:text-lg font-bold">21</span>
+                                        <span className="block text-[10px] sm:text-xs">Day Plan</span>
+                                    </div>
+                                </div>
+
+                                <div className="absolute bottom-12 -right-6 sm:bottom-14 sm:-right-7 md:bottom-16 md:-right-8 lg:bottom-24 lg:-right-4 xl:bottom-32 xl:-right-4 bg-gray-800 rounded-full w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 lg:w-20 lg:h-20 xl:w-24 xl:h-24 flex items-center justify-center shadow-xl border-2 border-[#e13e20] floating-element" style={{ animationDelay: '3s' }}>
+                                    <div className="text-white text-center">
+                                        <span className="block text-xs sm:text-sm font-bold">0%</span>
+                                        <span className="block text-[10px] sm:text-xs">Surgery</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
