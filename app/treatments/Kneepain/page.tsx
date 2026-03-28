@@ -21,18 +21,26 @@ export default function HomePage() {
     <>
     <main className="min-h-screen">
       <Kneeheader />
+      <section id="hero">
       <ComponentName />
+      </section>
+      <section id="">
       <StatsComponent />
+      </section>
       <section id="treatments">
       <KneePainConditionsGrid />
       </section>
+      <section id="who-is-this-for">
       <KneePainTreatment />
+      </section>
+      <section id="trust">
       <KneePainReliefCards />
+      </section>
       <section id="reviews">
         {/* <Kneevideo /> */}
       <PatientSuccessStories />
       </section>
-      <section id="contacts">
+      <section id="book-your-appointment">
       <CombinedComponent />
       </section>
       <Chatbot />

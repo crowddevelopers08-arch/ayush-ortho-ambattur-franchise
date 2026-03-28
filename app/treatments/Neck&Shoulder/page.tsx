@@ -20,14 +20,24 @@ export default function HomePage() {
     <>
     <main className="min-h-screen">
       <Neckheader />
+      <section id="hero">
       <Neckhero />
+      </section>
+      <section id="treatments">
       <Neckthird />
+      </section>
       <Neckfive />
       <Necksix />
+      <section id="who-is-this-for">
       <Neckfour />
+      </section>
       {/* <Neckvideo /> */}
+      <section id="reviews">
       <Neckreviews />
+      </section>
+      <section id="book-your-appointment">
       <NeckcombinedComponent />
+      </section>
       <Neckfooter />
       <Neckchatbot />
     </main>

@@ -19,21 +19,28 @@ export default function HomePage() {
     <>
     <main className="min-h-screen">
       <Header />
+      <section id="hero">
       <Backhero />
+      </section>
       <section id="treatments">
       <Backthird />
       
       </section>
+      <section id="who-is-this-for">
             <Backfour />
- 
+            </section>
+ <section id="trust">
         <Backsix />
+        </section>
+        <section id="treatment-methods">
         <Backcenterimg />
+        </section>
    <WhatSetsUsApart />
     {/* <Backvideo /> */}
-      <section id="reviews">
+      <section id="testimonials">
       <Backreviews />
       </section>
-      <section id="contacts">
+      <section id="book-your-appointment">
       <BackcombinedComponent />
       </section>
       <Backchatbot />
