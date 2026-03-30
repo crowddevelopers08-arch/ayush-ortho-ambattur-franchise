@@ -58,7 +58,30 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* End Google Tag Manager */}
+        
+        {/* Google Analytics (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18012498306"
+          strategy="afterInteractive"
+        />
+        
+        {/* Google Analytics Configuration */}
+        <Script
+          id="gtag-config"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18012498306');
+              gtag('config', 'AW-18012498306/O3UrCMeUnIocEILTg41D', {
+                'phone_conversion_number': '9514417318'
+              });
+            `,
+          }}
+        />
       </head>
       <body>
         {/* Google Tag Manager (noscript) */}
@@ -70,7 +93,6 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        {/* End Google Tag Manager (noscript) */}
         {children}
       </body>
     </html>
