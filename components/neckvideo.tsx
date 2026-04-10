@@ -7,13 +7,10 @@ const Neckvideo: React.FC = () => {
   
   const videos = [
     {
-      src: "https://youtube.com/embed/QQfKYANdv-s?feature=share",
+      src: "https://www.youtube.com/embed/zDRImZQYPKI",
     },
     {
-      src: "https://youtube.com/embed/y7OsOp-oAjE",
-    },
-     {
-      src: "https://youtube.com/embed/WP-g6uMssh0",
+      src: "https://www.youtube.com/embed/BzO0dJljQbU",
     },
   ];
 
@@ -40,9 +37,9 @@ const Neckvideo: React.FC = () => {
           </h2>
         </div>
 
-      {/* Video Grid - Centered with larger videos */}
+      {/* Video Grid */}
       <div className="flex justify-center w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 lg:gap-12 max-w-6xl w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 max-w-5xl w-full">
           {videos.map((video, index) => (
             <div
               key={index}

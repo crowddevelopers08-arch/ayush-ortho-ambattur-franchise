@@ -7,10 +7,13 @@ const Backvideo: React.FC = () => {
   
   const videos = [
     {
-      src: "https://youtube.com/embed/foj1EjAh930?feature=share",
+      src: "https://www.youtube.com/embed/gR16YFI7hTk",
     },
     {
-      src: "https://youtube.com/embed/CWzlYQmQsLc?feature=share",
+      src: "https://www.youtube.com/embed/5ABRFkMz5mY",
+    },
+    {
+      src: "https://www.youtube.com/embed/9Ar44yoCQfA",
     },
   ];
 
@@ -37,9 +40,9 @@ const Backvideo: React.FC = () => {
           </h2>
         </div>
 
-      {/* Video Grid - Centered with 2 videos */}
+      {/* Video Grid */}
       <div className="flex justify-center w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 max-w-4xl w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 max-w-6xl w-full">
           {videos.map((video, index) => (
             <div
               key={index}

@@ -7,22 +7,16 @@ const Commonvideo: React.FC = () => {
   
   const videos = [
     {
-      src: "https://www.youtube.com/embed/fTkbLoxQ20U",
+      src: "https://www.youtube.com/embed/PSy4NmYAEWc",
     },
     {
-      src: "https://www.youtube.com/embed/foj1EjAh930",
+      src: "https://www.youtube.com/embed/ApBRE-c0hLY",
     },
     {
-      src: "https://www.youtube.com/embed/QsYk3oy4614",
+      src: "https://www.youtube.com/embed/OyiMDthtvE0",
     },
     {
-      src: "https://www.youtube.com/embed/cITuCjkaJGA",
-    },
-    {
-      src: "https://www.youtube.com/embed/G_cnj3I13pY",
-    },
-    {
-      src: "https://www.youtube.com/embed/TolZhRhH_2s",
+      src: "https://www.youtube.com/embed/ApBRE-c0hLY",
     },
   ];
 
@@ -42,7 +36,7 @@ const Commonvideo: React.FC = () => {
       </h2>
 
       {/* Video Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-7xl w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 max-w-5xl w-full">
         {videos.map((video, index) => (
           <div
             key={index}

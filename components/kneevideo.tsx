@@ -7,10 +7,16 @@ const Kneevideo: React.FC = () => {
   
   const videos = [
     {
-      src: "https://youtube.com/embed/TolZhRhH_2s?feature=share",
+      src: "https://www.youtube.com/embed/yOiBPMln6_Q",
     },
     {
-      src: "https://www.youtube.com/embed/mFOHFMzPOd4",
+      src: "https://www.youtube.com/embed/LejYQKVCIyo",
+    },
+    {
+      src: "https://www.youtube.com/embed/OSfPmHhWAac",
+    },
+    {
+      src: "https://www.youtube.com/embed/wI8B3h323ng",
     },
   ];
 

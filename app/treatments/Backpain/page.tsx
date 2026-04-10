@@ -36,7 +36,7 @@ export default function HomePage() {
         <Backcenterimg />
         </section>
    <WhatSetsUsApart />
-    {/* <Backvideo /> */}
+    <Backvideo />
       <section id="testimonials">
       <Backreviews />
       </section>

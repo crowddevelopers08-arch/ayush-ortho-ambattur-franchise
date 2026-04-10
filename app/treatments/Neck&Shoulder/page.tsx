@@ -31,7 +31,7 @@ export default function HomePage() {
       <section id="who-is-this-for">
       <Neckfour />
       </section>
-      {/* <Neckvideo /> */}
+      <Neckvideo />
       <section id="reviews">
       <Neckreviews />
       </section>
