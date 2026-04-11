@@ -12,6 +12,9 @@ const Neckvideo: React.FC = () => {
     {
       src: "https://www.youtube.com/embed/BzO0dJljQbU",
     },
+    {
+      src: "https://www.youtube.com/embed/PSy4NmYAEWc",
+    },
   ];
 
   const handleOpenModal = () => {
@@ -39,7 +42,7 @@ const Neckvideo: React.FC = () => {
 
       {/* Video Grid */}
       <div className="flex justify-center w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 max-w-5xl w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 lg:gap-12 max-w-6xl w-full">
           {videos.map((video, index) => (
             <div
               key={index}
