@@ -240,10 +240,7 @@ async function updateLeadTelecrmStatus(leadId: string, telecrmId?: string, error
       where: { id: leadId },
       data: {
         telecrmSynced: !error,
-        telecrmId: telecrmId || null,
-        syncedAt: new Date(),
-        error: error || null,
-        status: error ? 'ERROR' : 'NEW'
+        telecrmId: telecrmId || null
       }
     });
   } catch (error) {
@@ -253,11 +250,12 @@ async function updateLeadTelecrmStatus(leadId: string, telecrmId?: string, error
 }
 
 export async function POST(request: NextRequest) {
-  let data: LeadData;
+  let data: LeadData | null = null;
   let savedLead: any = null;
 
   try {
-    data = await request.json()
+    const payload = await request.json() as LeadData
+    data = payload
     
     // Log the entire received data
     console.log('API - Received request data:', JSON.stringify(data, null, 2));
@@ -273,7 +271,7 @@ export async function POST(request: NextRequest) {
       source,
       consent,
       formName
-    } = data
+    } = payload
 
     // Validate required fields
     if (!name || !phone) {
@@ -384,8 +382,7 @@ export async function POST(request: NextRequest) {
             source: data.source || 'https://www.ayushortho.in/backpain-treatment',
             formName: 'backpain',
             consent: data.consent || false,
-            status: 'ERROR',
-            error: error instanceof Error ? error.message : 'Unknown error',
+            status: 'NEW',
             telecrmSynced: false
           }
         });
